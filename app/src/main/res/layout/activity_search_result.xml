@@ -5,24 +5,21 @@
     android:padding="16dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <EditText
-        android:id="@+id/search_edit_text"
+    <ListView
+        android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter a name"
-        android:inputType="text"
-        android:maxLines="1" />
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/search_button"
+        android:id="@+id/reset_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search" />
+        android:text="Reset" />
 
     <Button
-        android:id="@+id/page"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Page" />
+        android:text="Back" />
 
 </LinearLayout>
